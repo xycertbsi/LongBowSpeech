@@ -26,17 +26,26 @@ SpeechRecognition==3.14.3
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/yourrepository.git
-   cd yourrepository
+   git clone https://github.com/xycertbsi/LongBowSpeech.git
+   cd LongBowSpeech
    ```
 
 2. Install the required packages:
 
+   on linux:
    ```bash
    pip install -r requirements.txt
    ```
+   on windows:
+   ```bash
+   py -m pip install -r requirements.txt
+   ```
+   on macos:
+   ```bash
+   no idea, i not use macos sry :(
+   ```
 
-3. Create a `.env` file in the root directory with the following content:
+4. Create a `.env` file in the root directory with the following content:
 
    ```
    command_require=True
