@@ -13,9 +13,12 @@ This Python application allows users to execute voice commands to retrieve the c
 Make sure you have Python installed on your machine. You can create a `requirements.txt` file with the following contents:
 
 ```
-colorama==0.4.4
-python-dotenv==0.19.2
-SpeechRecognition==3.8.1
+colorama==0.4.6
+dotenv==0.9.9
+PyAudio==0.2.14
+python-dotenv==1.1.1
+pyttsx3==2.98
+SpeechRecognition==3.14.3
 ```
 
 ### Installation
