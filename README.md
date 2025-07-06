@@ -1,4 +1,4 @@
-# Voice Command Application
+# LongBowSpeech
 
 This Python application allows users to execute voice commands to retrieve the current time or date using speech recognition. It utilizes the `speech_recognition` library for capturing audio input and interpreting commands.
 
@@ -40,18 +40,18 @@ SpeechRecognition==3.14.3
 
    ```
    command_require=True
-   command=your_command
-   ListingLang=en-US
+   command=Jason
+   ListingLang=en
    ```
 
-   Replace `your_command` with the command prefix you want to use (e.g., "Hey Assistant").
+   Replace `Jason` with the command prefix you want to use (e.g., "Hey Assistant").
 
 ## Usage
 
 1. Run the application:
 
    ```bash
-   python your_script.py
+   python main.py
    ```
 
 2. Speak the command "time" to get the current time or "date" to get the current date.
@@ -65,10 +65,6 @@ SpeechRecognition==3.14.3
 ## Contributing
 
 Contributions are welcome! Feel free to submit a pull request or open an issue for any feature requests or bugs.
-
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 ## Acknowledgments
 
