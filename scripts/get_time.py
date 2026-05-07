@@ -4,6 +4,6 @@ import time
 
 def run():
     current_time = time.strftime("%H:%M:%S")
-    print("Jelenlegi idő: ", current_time)
-    tts.say("Jelenlegi idő: " + current_time)
+    print("Current time: ", current_time)
+    tts.say("Current time: " + current_time)
     tts.runAndWait()
